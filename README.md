@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">
-     IPQ60xx & MT798x 设备的 OpenWrt 固件发布页面
+     IPQ60xx 设备的 OpenWrt 固件发布页面
   </h1>
 <a href="/LICENSE">
     <img src="https://img.shields.io/github/license/sdf8057/cloudbuild?style=flat&a=1" alt="">
@@ -18,13 +18,13 @@
 <br>
 
 ## ipq6000固件特性：  
-0.默认后台地址192.168.100.1；默认后台密码password。  
-1.添加cpu温度、频率以及npu占用率显示。  
-2.修复nat环回功能失效bug。  
-3.cpu超频至1.6ghz，跑分2w+。  
-4.为360/和目等设备添加原厂无线校准文件。  
-5.支持在线安装软件，手动安装请确保插件使用lua语言编写。  
-6.释放保留内存，可用内存增加50m。  
+
+1.默认后台地址 192.168.100.1；默认后台密码 password。  
+2.添加cpu温度、频率以及npu占用率显示。  
+3.修复nat环回功能失效bug。  
+4.cpu超频至1.6ghz，coremark跑分2w+。  
+5.支持在线安装软件，手动安装请确保插件为luci1806版本及以下。  
+6.释放WiFi保留内存，开机可用内存增加50m。  
 7.此页面发布的ipq6000固件不集成无线功能。  
 
 ## 集成插件列表
